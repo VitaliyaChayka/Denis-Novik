@@ -51,7 +51,7 @@ navLink.forEach(function(el) {
         this.classList.add('active');
     }, false);
 });
-/////////////////////////
+/////////////////////////изменение цвета ссылки при скроле в зависимости от секции
 
  function activeScrollLink() {
        for (let link of document.getElementsByClassName('nav_link')) {
@@ -69,7 +69,7 @@ navLink.forEach(function(el) {
 
 /////////////////////////
 
-let upBtn = document.getElementsByClassName('scrollup');
+let upBtn = document.getElementById ('scrollup');
 window.addEventListener('scroll', function(){
     if (wHeight < window.scrollY){
         upBtn.classList.add('scrollup_active')

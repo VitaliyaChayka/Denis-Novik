@@ -402,7 +402,7 @@
                     }
 
 
-                    .scrollup {
+                    #scrollup {
                         position: fixed;                        
                         color: #514f58;
                         background-color:transparent;                   
@@ -413,7 +413,7 @@
                         display: none;
                         /*display: block;*/
                         }
-                        .scrollup.scrollup_active{
+                        #scrollup.scrollup_active{
                             display: block;
                         }
 
