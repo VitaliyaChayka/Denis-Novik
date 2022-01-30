@@ -38,7 +38,7 @@ for (let link of document.getElementsByClassName('nav_link')){
     });
     })
 }
-////////////////////////////в
+////////////////////////////
 let navLink = [].slice.call(document.querySelectorAll('.nav_list a'));
 navLink.forEach(function(el) {
     el.addEventListener('click', function(e) {
@@ -66,6 +66,8 @@ navLink.forEach(function(el) {
           })
        }
     }
+activeScrollLink();
+
 
 /////////////////////////
 
